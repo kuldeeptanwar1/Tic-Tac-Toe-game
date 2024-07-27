@@ -52,6 +52,7 @@ const checkWinner = (nwi) => {
 
         if (pos1Val!="" && pos2Val!="" && pos3Val!=""){
             if (pos1Val === pos2Val && pos2Val === pos3Val){
+                count = 0;
                 showWinner(pos1Val);
             }
         }
